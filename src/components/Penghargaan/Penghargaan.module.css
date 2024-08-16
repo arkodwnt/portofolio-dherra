@@ -95,3 +95,13 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
+@media screen and (max-width: 830px) {
+  .card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+}
+
